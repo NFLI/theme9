@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Різні кнопки з блоками</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="buttons">
+        <!-- Внутрішнє посилання на блок "home" -->
+        <a href="/" class="btn btn-primary">
+            <i class="fas fa-home"></i> На головну
+        </a>
+        
+        <!-- Зовнішнє посилання -->
+        <a href="https://uk.wikipedia.org/wiki/Apple" class="btn btn-secondary" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Про компанію
+        </a>
+        
+        <!-- Внутрішнє посилання на блок "services" -->
+        <a href="services.html" class="btn btn-tertiary">
+            <i class="fas fa-cogs"></i> Наші послуги
+        </a>
+
+        <!-- Кнопка без посилання -->
+        <button class="btn btn-danger">
+            <i class="fas fa-times"></i> Закрити
+        </button>
+    </div>
+
+    <!-- Блоки на які ведуть посилання -->
+
+    <!-- Блок Services -->
+    <section id="services" class="block">
+        <h2>Наші послуги</h2>
+        <p>Ми надаємо такі послуги, як створення вебсайтів, оптимізація воронок продажів і багато іншого.</p>
+    </section>
+</body>
+</html>
